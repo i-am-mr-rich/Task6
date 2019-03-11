@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1366px;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+section{
+    background: #ffffff;
+    height: 850px;
+    width: 1017px;
+}
+.text{
+    height:100px;
+    width: 100%;
+}
+.h1{
+    position: absolute;
+    width: 423px;
+    height: 55px;
+    left: 220px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    color: #737373;
+}
+.h2{
+    position: absolute;
+    width: 243px;
+    height: 22px;
+    left: 310px;
+    top: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.21em;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 60px;
+}
+.mat{
+    color: blue;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+.card-1{
+    position: relative;
+    width: 296px;
+    height: 470px;
+    right:-20px;
+    top: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.card-1:hover{
+    top:2px;
+}
+.card-1:hover .btn{
+    display: block;
+}
+.card-2{
+    position: relative;
+    width: 296px;
+    height: 470px;
+    right: -1px;
+    top: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.card-2:hover{
+    top:2px;
+}
+.card-2:hover .btn{
+    display: block;
+}
+.card-3{
+    position: relative;
+    width: 296px;
+    height: 470px;
+    right: 20px;
+    top: 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/Users/Richard/Desktop/mattras/assert/svg3.svg),url(/Users/Richard/Desktop/mattras/assert/svg5.svg),url(/Users/Richard/Desktop/mattras/assert/svg4.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom left, bottom left; 
+    transition: .3s ease-in-out;
+}
+.card-3:hover{
+    top: 2px;
+}
+.card-3:hover .btn{
+    display: block;
+}
+.text{
+    position: relative;
+    width: 158px;
+    height: 67px;
+    left: 80px;
+    top: -30px;
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 40px;
+    color: #435e72;
+    text-transform: uppercase;
+    padding-top: 50px;
+    text-align: center;
+}
+.text-small{
+    position: relative;
+    width: 86px;
+    height: 31px;
+    left: 120px;
+    top: -80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+    color: rgba(0,0 0,0, 5);
+    text-align: center;
+}
+.vector{
+    background-image: url(/Users/Richard/Desktop/mattras/assert/svg1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 295.61px;
+    height: 204.27px;
+    left: -1px;
+    top: 274px;
+}
+.vector2{
+    background-image: url(/Users/Richard/Desktop/mattras/assert/svg2.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    width: 295.61px;
+    height: 204.27px;
+    bottom: -20px;
+}
+.btn{
+    height: 40px;
+    width:40px;
+    border-radius: 50px;
+    border: 0;
+    position: absolute;
+    top: -15px;
+    left: 265px;
+    background: #ffffff;
+    box-shadow: 0 3px 20px rgb(149, 153, 147);
+    font-size: 35px;
+    display: none;
+    transition: .3s ease-in-out;
+    
+}
